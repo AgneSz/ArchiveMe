@@ -1,0 +1,9 @@
+<h1>All Archives</h1>
+<%= @archives.each do |archive| %>
+<%= archive.title %>
+<% end %>
+
+
+<%= link_to "Create New Archive", archives_new_path %>
+
+

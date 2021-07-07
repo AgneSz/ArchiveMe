@@ -1,0 +1,19 @@
+<div class="container py-2">
+  <div class="row">
+    <div class="col-12 col-md-6 offset-lg-3">
+      <div class="bg-white rounded p-3 shadow">
+        <h3>Create an Archive</h3>
+        <%= simple_form_for [@archive] do |f| %>
+        <div class="form-inputs">
+          <%= f.input :title %>
+          <%= f.input :category %>
+          <%= f.submit "Create Archive", class: "btn btn-success" %>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
